@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Serpiente</title>
+    <link rel="stylesheet" href="styles (1).css">
+    <link rel="icon" type="image/png" sizes="192x192" href="serpiente.png">
+    <link rel="apple-touch-icon" href="serpiente.png">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="controls">
+            <div class="row">       <br>
+                <button onclick="changeDirection('UP')">⬆️</button>
+                <button onclick="changeDirection('LEFT')">⬅️</button>
+                <button onclick="changeDirection('RIGHT')">➡️</button>
+                <button onclick="changeDirection('DOWN')">⬇️</button>
+        </div>       <br>
+        <button onclick="resetGame()">Reiniciar Juego</button>
+    </div>
+    <script src="script (1).js"></script>
+</body>
+</html>

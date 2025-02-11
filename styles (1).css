@@ -1,0 +1,38 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+        }
+        canvas {
+            border: 2px solid white;
+        }
+        .controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        .row button {
+            margin: 5px;
+        }
+        button {
+            padding: 15px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
